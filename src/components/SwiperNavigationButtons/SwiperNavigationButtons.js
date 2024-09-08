@@ -1,5 +1,5 @@
 import { useSwiper } from "swiper/react";
-import styles from "./SwiperNavigationButton.module.css";
+import styles from "./SwiperNavigationButtons.module.css";
 
 export default function SwiperNavigationButtons() {
   const swiper = useSwiper();

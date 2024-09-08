@@ -9,7 +9,7 @@ export default function Hero() {
         <h1>Over thousands podcast episodes</h1>
       </div>
       <img
-        src={require("../../assets/vibrating-headphone.png")}
+        src={require("../../assessts/vibrating-headphone 1.png")}
         alt="Vibrating Headphones"
       />
     </div>

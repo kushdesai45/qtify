@@ -1,12 +1,13 @@
 import { Box, Link } from "@mui/material";
 import styles from "./Navbar.module.css";
 import SearchIcon from "@mui/icons-material/Search";
+import logo from "../../assessts/logo.png"
 
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <Link to="/">
-        <img src="logo.png" className={styles.logo} alt="Logo" />
+        <img src={logo} className={styles.logo} alt="Logo" />
       </Link>
 
       <Box className={styles.searchbar}>
