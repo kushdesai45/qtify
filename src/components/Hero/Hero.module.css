@@ -1,20 +1,10 @@
 .hero {
     background-color: var(--color-black);
     height: 270px;
-  
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
     text-align: center;
+    gap: 30px;
     color: var(--color-white);
-  }
-  
-  .hero img {
-    width: 212px;
-    height: 212px;
-  }
+}

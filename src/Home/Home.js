@@ -39,7 +39,7 @@ export default function Home() {
 
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar searchData={songs}></Navbar>
       <Hero></Hero>
 
       <div className={styles.section}>

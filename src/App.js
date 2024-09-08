@@ -1,19 +1,14 @@
-import "./App.css";
-import { Routes, Route,BrowserRouter } from "react-router-dom";
-import Home from "./Home/Home";
-import { StyledEngineProvider } from "@mui/material";
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Home from './components/Home';
 
 function App() {
   return (
-    <BrowserRouter>
-    <StyledEngineProvider injectFirst>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </div>
-    </StyledEngineProvider>
-    </BrowserRouter>
+    <div className="App">
+      <Routes>
+        <Route path='/' Component={Home} />
+      </Routes>
+    </div>
   );
 }
 

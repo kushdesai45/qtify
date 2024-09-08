@@ -1,0 +1,31 @@
+.container {
+    padding: 1rem;
+    border-top: 2px solid gray;
+    box-shadow: 0px -1px 3px gray;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.songDetails {
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+}
+
+.songName {
+    font-size: 1rem;
+}
+
+.songArtist {
+    font-size: 0.75rem;
+}
+
+.audioPlayerContainer {
+    flex-grow: 1;
+}

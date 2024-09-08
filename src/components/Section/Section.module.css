@@ -1,6 +1,32 @@
-.section {
+.container {
+    padding: 2rem;
     display: flex;
-    flex-wrap: wrap;
-    column-gap: 40px;
-    row-gap: 24px;
-  }
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.gridItem {
+    display: flex;
+    justify-content: center;
+}
+
+.collapseBtn {
+    padding: 0;
+}
+
+.tab {
+    color: var(--color-white);
+}
+
+.tabs{
+    margin-bottom: 28px;
+}

@@ -1,0 +1,22 @@
+.mySwiper {
+    position: relative;
+}
+
+.swiperSlide {
+    display: flex;
+    justify-content: center;
+}
+
+.btnLeft {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    z-index: 1;
+}
+
+.btnRight {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    z-index: 1;
+}

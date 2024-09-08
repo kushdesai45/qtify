@@ -1,0 +1,27 @@
+.container {
+    width: 9.938rem;
+}
+
+.card {
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.cardImg {
+    height: 10.625rem;
+    overflow: hidden;
+}
+
+.cardContent {
+    &:last-child {
+        padding-bottom: 4px;
+    }
+
+    padding: 4px 8px 4px 8px;
+    margin: 0;
+}
+
+.cardChip {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
